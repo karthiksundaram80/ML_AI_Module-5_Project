@@ -22,9 +22,9 @@ The objective of this activity is to determine the acceptance of coupons by driv
 
 
 * Proportion of bar coupons accepted by driver's destination and if the coupon venue is in the same direction as that of destination.
-  - Drivers not travelling to any <b>urgent place</b> have the highest acceptance rate at <b> 20.72 %</b> when the venue is in the opposite direction as that of the destination.
-  - Drivers travelling <b>home</b> have an <b>8.28 %</b> acceptance rate when the venue is in the same direction. If the venue is in the opposite direction, then the acceptance rate drops to <b>3.17 %</b>
-  - Drivers travelling to <b>Work</b> have a <b>1.29 %</b> acceptance rate when the venue is in the same direction. If the venue is in the opposite direction, then the acceptance increases to <b>7.54 %</b>
+  - Drivers not traveling to any <b>urgent place</b> have the highest acceptance rate at <b> 20.72 %</b> when the venue is in the opposite direction as that of the destination.
+  - Drivers traveling <b>home</b> have an <b>8.28 %</b> acceptance rate when the venue is in the same direction. If the venue is in the opposite direction, then the acceptance rate drops to <b>3.17 %</b>
+  - Drivers traveling to <b>Work</b> have a <b>1.29 %</b> acceptance rate when the venue is in the same direction. If the venue is in the opposite direction, then the acceptance increases to <b>7.54 %</b>
   
 * Analysis based on the frequency of drivers going to the bar:
   - Acceptance rate of drivers going to bar <b>less than 3 times</b> a month has the highest rate at <b>33.42 %</b> than the drivers who went to bar <b>more than 3 times</b> a month having the acceptance rate of <b>7.59 %</b>.
@@ -36,7 +36,7 @@ The objective of this activity is to determine the acceptance of coupons by driv
 
 
 * <b>Student</b> and <b>Unemployed</b> have the highest acceptance rate for coupon at <b>6% and 5%</b> respectively.
-* Proportion of bar coupons accepted by drivers who are currently employed. We need to remove the occupations <b>Student</b>, <b>Unemployed</b> and <b>Retired</b> as these belong to not working category.
+* Proportion of bar coupons accepted by drivers who are currently employed. We need to remove the occupations <b>Student</b>, <b>Unemployed</b>, and <b>Retired</b> as these belong to the not working category.
   - Drivers who are <b>working</b> and over 25 years old had a much higher <b>(24 %)</b> acceptance rate than drivers who are <b>working</b> and under 25 years old <b>(5%)</b>.
 
 ## Analysis of Restaurant(20-50) coupon
@@ -52,9 +52,12 @@ The objective of this activity is to determine the acceptance of coupons by driv
  ##### Since drivers who went to restaurants less than 3 times accepted more coupons, let us include other features to this data to see how the acceptance rate is affected.
  * Check the income distribution of drivers who go to a restaurant less than 3 times a month and accept coupon
    - There is no big difference in acceptance rate between low and high-earning drivers; 50.95 % vs 49 %.
+     ![Drivers_income_Less_or_more_than_50k](https://github.com/karthiksundaram80/ML_AI_Module-5_Project/assets/42277105/5798aae4-1e66-4981-a6ec-ea36e895a11e)
+
      
  * Compare the acceptance rate of drivers going to restaurants less than 3 times a month against their working status. We will consider students and unemployed as not working and other occupations as working.
    - Drivers who went to restaurant <b>less than 3 times</b> and are <b>employed</b> accepted more coupons (29%) than drivers who are either unemployed or a student (9%).
-     
+     ![drivers going to restaurants less than 3 times_working_and_Not_working](https://github.com/karthiksundaram80/ML_AI_Module-5_Project/assets/42277105/3a082b86-be0e-4ba6-b79a-e370cabcae24)
+
  *  Compare the acceptance rate of drivers going to restaurants less than 3 times a month against the proximity of their destination to the restaurant venue. Here, value 1 indicates time to venue is within the given minute and 0 indicates time to venue is not within the given minute.
-    - For distance to venue less than or equal to 15 mins, drivers going in the opposite direction going in opposite direction accepted more coupons <b>(20%)</b> than drivers travelling in same direction <b>(1%)</b>. This is because all drivers going <b>home</b> as their destination aren't accepting many coupons.
+    - For distance to venue less than or equal to 15 mins, drivers going in the opposite direction going in opposite direction accepted more coupons <b>(20%)</b> than drivers traveling in the same direction <b>(1%)</b>. This is because all drivers going <b>home</b> as their destination aren't accepting many coupons.

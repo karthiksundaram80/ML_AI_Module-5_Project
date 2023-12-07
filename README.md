@@ -4,7 +4,7 @@ Will a Customer Accept the Coupon? -- Practical_Application_Assignment_5.1_Karth
 
 The objective of this activity is to determine the acceptance of coupons by drivers using various features presented in the dataset.
 
-## The following are the transformations done on the variables
+## Data Cleaning: The following are the transformations done on the variables
 * Feature "Car" was dropped due to 99 % of its values being missing.
 * A few other features are missing less than 2 % of its value. For those missing values, the mode of those feature values was calculated and populated. 
 * Feature "toCoupon_GEQ5min" contained only one value which was 1. Therefore the column was dropped

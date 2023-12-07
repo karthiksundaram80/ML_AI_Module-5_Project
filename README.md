@@ -61,3 +61,5 @@ The objective of this activity is to determine the acceptance of coupons by driv
 
  *  Compare the acceptance rate of drivers going to restaurants less than 3 times a month against the proximity of their destination to the restaurant venue. Here, value 1 indicates time to venue is within the given minute and 0 indicates time to venue is not within the given minute.
     - For distance to venue less than or equal to 15 mins, drivers going in the opposite direction going in opposite direction accepted more coupons <b>(20%)</b> than drivers traveling in the same direction <b>(1%)</b>. This is because all drivers going <b>home</b> as their destination aren't accepting many coupons.
+      ![Drivers_accepting_the_coupon_against_proximity_of_their_destination_to_the_restaurant_venue](https://github.com/karthiksundaram80/ML_AI_Module-5_Project/assets/42277105/e696a753-d5c0-4c5a-aaab-25a255243151)
+
